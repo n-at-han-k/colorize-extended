@@ -2,6 +2,20 @@
 
 A fork of [colorize](https://github.com/fazibear/colorize) that adds chainable `.on.color` syntax sugar for setting background colors.
 
+## Installation
+
+Add to your Gemfile:
+
+```ruby
+gem 'colorize-extended'
+```
+
+Then run `bundle install`. Or install directly:
+
+```
+gem install colorize-extended
+```
+
 ## Usage
 
 ```ruby
