@@ -8,12 +8,6 @@ end
 
 desc 'Run tests'
 task :default do
-  ENV['TEST'] = 'test/test_colorize.rb'
-  Rake::Task[:test].execute
-  ENV['TEST'] = 'test/test_colorized_string.rb'
-  Rake::Task[:test].execute
-  ENV['TEST'] = 'test/test_colorize_with_readline.rb'
-  Rake::Task[:test].execute
-  ENV['TEST'] = 'test/test_colorized_string_with_readline.rb'
+  ENV['TEST'] = 'test/test_colorize_extended.rb'
   Rake::Task[:test].execute
 end
