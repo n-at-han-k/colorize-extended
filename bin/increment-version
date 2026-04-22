@@ -15,7 +15,7 @@ unless %w[major minor patch].include?(segment)
   exit 1
 end
 
-current = Kube::Cluster::VERSION
+current = Colorize::Extended::VERSION
 major, minor, patch = current.split(".").map(&:to_i)
 
 case segment
