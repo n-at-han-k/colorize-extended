@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../lib/kube/cluster/version"
+require_relative "../lib/colorize/extended/version"
 
-local_version = Kube::Cluster::VERSION
-gem_name = "kube_cluster"
-gemspec = "kube_cluster.gemspec"
+local_version = Colorize::Extended::VERSION
+gem_name = "colorize_extended"
+gemspec = "colorize_extended.gemspec"
 
 puts "Local version: #{local_version}"
 
